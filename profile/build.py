@@ -92,7 +92,7 @@ def main():
     )
 
     # Load and render template
-    template = env.get_template("README.md.jinja2")
+    template = env.get_template("README.jinja2.md")
     output = template.render(
         stable_repos=stable_repos,
         experimental_repos=experimental_repos
