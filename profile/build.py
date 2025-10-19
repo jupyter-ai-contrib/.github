@@ -59,10 +59,11 @@ def main():
     all_repos = fetch_public_repos("jupyter-ai-contrib")
 
     # Load stable.yaml
-    stable_file = script_dir / "stable.yaml"
-    with open(stable_file) as f:
-        stable_data = yaml.safe_load(f)
-        stable_names = set(stable_data.get("stable_repos", []))
+    repos_file = script_dir / "repos.yaml"
+    with open(repos_file) as f:
+        repos_data = yaml.safe_load(f)
+        stable_names = set(repos_data.get("stable_repos", []))
+        skip_names = set(repos_data.get("skip_repos", []))
 
     # Split repos into stable and experimental
     stable_repos = []
@@ -75,10 +76,11 @@ def main():
             "description": repo["description"]
         }
 
-        if repo["name"] in stable_names:
-            stable_repos.append(repo_data)
-        else:
-            experimental_repos.append(repo_data)
+        if repo["name"] not in skip_names:
+            if repo["name"] in stable_names:
+                stable_repos.append(repo_data)
+            else:
+                experimental_repos.append(repo_data)
 
     # Sort both lists alphabetically by name
     stable_repos.sort(key=lambda x: x["name"].lower())
@@ -106,6 +108,7 @@ def main():
     print(f"✓ Generated README.md")
     print(f"  - Stable repositories: {len(stable_repos)}")
     print(f"  - Experimental repositories: {len(experimental_repos)}")
+    print(f"  - Skipped repositories: {len(skip_names)}")
 
 
 if __name__ == "__main__":

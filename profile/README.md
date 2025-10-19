@@ -8,40 +8,36 @@ The Jupyter AI Contrib organization contains a set of Jupyter extensions that ar
 
 Our mission is to create modular, extensible building blocks that enable humans and AI to collaborate effectively in Jupyter environments. We focus on developing components that can be composed together to support a wide range of AI-assisted workflows, from code generation and data analysis to interactive learning and research.
 
-Jupyter AI Contrib is not currently an [official Jupyter subproject](https://jupyter.org/governance/list_of_subprojects.html), but we intend for this organization to become a new Jupyter AI subproject over time as we mature our governance, community, and technical foundations.
+While Jupyter AI Contrib was created by leaders in the Jupyter community, it is not currently an [official Jupyter subproject](https://jupyter.org/governance/list_of_subprojects.html). However, we intend for this organization to become an official Jupyter AI subproject over time as we mature our governance, community, and technical foundations.
 
 ## Community
 
-We welcome contributors of all backgrounds and skill levels! Whether you're fixing bugs, adding features, improving documentation, or sharing ideas, your contributions help make AI-assisted Jupyter workflows better for everyone.
+We welcome contributors of all backgrounds and skill levels! Whether you're fixing bugs, adding features, improving documentation, or sharing ideas, your contributions help make AI-assisted Jupyter workflows better for everyone. All community members are expected to follow the [Jupyter Code of Conduct](https://jupyter.org/governance/conduct/code_of_conduct.html).
 
-- **Code of Conduct**: All community members are expected to follow the [Jupyter Code of Conduct](https://github.com/jupyter/governance/blob/main/conduct/code_of_conduct.md).
-- **Discussions**: Join the conversation on [GitHub Discussions](https://github.com/orgs/jupyter-ai-contrib/discussions) to ask questions, share ideas, or propose new features.
+Please join the community conversation on [GitHub Discussions](https://github.com/orgs/jupyter-ai-contrib/discussions) to ask questions, share ideas, or propose new features.
 
 ## Stable Repositories
 
-These repositories are considered stable and ready for production use:
+We have marked the following repositories as being "stable". This status means the repos are, or are quickly becoming, stable and ready for production use.
 
+- [**jupyter-ai-chat-commands**](https://github.com/jupyter-ai-contrib/jupyter-ai-chat-commands) - Default set of chat commands in Jupyter AI
 - [**jupyter-ai-jupyternaut**](https://github.com/jupyter-ai-contrib/jupyter-ai-jupyternaut) - Package which provides the Jupyternaut, the default AI persona, in Jupyter AI
+- [**jupyter-ai-litellm**](https://github.com/jupyter-ai-contrib/jupyter-ai-litellm) - LiteLLM based model abstraction for Jupyter AI
 - [**jupyter-ai-persona-manager**](https://github.com/jupyter-ai-contrib/jupyter-ai-persona-manager) - The core manager & registry for AI personas in Jupyter AI
 - [**jupyter-ai-router**](https://github.com/jupyter-ai-contrib/jupyter-ai-router) - The core routing layer used in Jupyter AI to process chat messages
+- [**jupyter-ai-tools**](https://github.com/jupyter-ai-contrib/jupyter-ai-tools) - No description available
 - [**jupyter-server-documents**](https://github.com/jupyter-ai-contrib/jupyter-server-documents) - Server side document handling with improved output handling and kernel management/status.
+- [**jupyter-server-mcp**](https://github.com/jupyter-ai-contrib/jupyter-server-mcp) - An MCP interface/extension for Jupyter Server 
+- [**jupyterlab-cell-diff**](https://github.com/jupyter-ai-contrib/jupyterlab-cell-diff) - JupyterLab Plugin: Show a Cell Diff
 
 ## Experimental Repositories
 
 These repositories are experimental and under active development:
 
-- [**.github**](https://github.com/jupyter-ai-contrib/.github) - Org level content for Jupyter AI Contrib
-- [**jupyter-ai-chat-commands**](https://github.com/jupyter-ai-contrib/jupyter-ai-chat-commands) - Default set of chat commands in Jupyter AI
 - [**jupyter-ai-claude-code**](https://github.com/jupyter-ai-contrib/jupyter-ai-claude-code) - A Jupyter AI persona for Claude Code
-- [**jupyter-ai-demos**](https://github.com/jupyter-ai-contrib/jupyter-ai-demos) - A set of demos for new features of Jupyter AI
-- [**jupyter-ai-litellm**](https://github.com/jupyter-ai-contrib/jupyter-ai-litellm) - LiteLLM based model abstraction for Jupyter AI
 - [**jupyter-ai-personas**](https://github.com/jupyter-ai-contrib/jupyter-ai-personas) - AI Personas for Jupyter AI
-- [**jupyter-ai-tools**](https://github.com/jupyter-ai-contrib/jupyter-ai-tools) - No description available
 - [**jupyter-floating-chat**](https://github.com/jupyter-ai-contrib/jupyter-floating-chat) - A jupyterlab extension to add a floating chat input
-- [**jupyter-scheduler-k8s**](https://github.com/jupyter-ai-contrib/jupyter-scheduler-k8s) - A Kubernetes backend for Jupyter Scheduler
 - [**jupyter-server-ai-tools**](https://github.com/jupyter-ai-contrib/jupyter-server-ai-tools) - A Jupyter Server extension for discovering tools across extensions.
-- [**jupyter-server-mcp**](https://github.com/jupyter-ai-contrib/jupyter-server-mcp) - An MCP interface/extension for Jupyter Server 
-- [**jupyterlab-cell-diff**](https://github.com/jupyter-ai-contrib/jupyterlab-cell-diff) - JupyterLab Plugin: Show a Cell Diff
 - [**jupyterlab-cell-input-footer**](https://github.com/jupyter-ai-contrib/jupyterlab-cell-input-footer) - JupyterLab Plugin that provides a cell input footer
 - [**jupyterlab-commands-toolkit**](https://github.com/jupyter-ai-contrib/jupyterlab-commands-toolkit) - JupyterLab commands as an AI Toolkit
 - [**jupyterlab-document-collaborators**](https://github.com/jupyter-ai-contrib/jupyterlab-document-collaborators) - No description available
@@ -50,33 +46,17 @@ These repositories are experimental and under active development:
 
 ## Governance
 
-Jupyter AI Contrib follows a simple, consensus-seeking governance model designed to enable rapid iteration while maintaining quality and community input.
+The organization is owned and governed by the following decision makers (in alphabetical order):
 
-### Decision Makers
-
-The organization is governed by the following decision makers (in alphabetical order):
-
-- [@blink1073](https://github.com/blink1073) - Jeremy Tuloup
-- [@davidbrochart](https://github.com/davidbrochart) - David Qiu
 - [@ellisonbg](https://github.com/ellisonbg) - Brian Granger
-- [@piyushjain27](https://github.com/piyushjain27) - Piyush Jain
+- [@3coins](https://github.com/3coins) - Piyush Jain
+- [@dlqqq](https://github.com/dlqqq) - David Qiu
 - [@Zsailer](https://github.com/Zsailer) - Zach Sailer
+- [@jtpio](https://github.com/jtpio) - Jeremy Tuloup
 
-### Decision-Making Process
+Jupyter AI Contrib follows a simple, consensus-seeking governance model designed to enable rapid iteration while maintaining quality and community input. We implement this by roughly following the [Jupyter Decision Making Guide](https://jupyter.org/governance/decision_making.html) with the above decision makers guiding the consusus seeking process and voting when needed.
 
-Decisions are made by majority vote on [GitHub Discussions](https://github.com/orgs/jupyter-ai-contrib/discussions) using thumbs up 👍 and thumbs down 👎 reactions. This includes both organization-level decisions and decisions within individual repositories.
-
-### Organization-Level Decisions
-
-The following decisions require organization-level approval:
-
-- **New repository creation and transfers**: Adding new repositories to the organization or transferring repositories in/out
-- **Promotion of repositories to "Stable" status**: Moving repositories from Experimental to Stable
-- **New owners/decision makers**: Adding or removing decision makers from the governance team
-
-### Repository Governance
-
-Individual repositories use the same consensus-seeking model with the five decision makers as the ultimate authorities. Repository-level decisions (features, bug fixes, releases, etc.) are made through pull requests and issues with input from contributors and approval from decision makers.
+Org-level decisions are made by majority vote of the org owners on [GitHub Discussions](https://github.com/orgs/jupyter-ai-contrib/discussions) using thumbs up 👍 and thumbs down 👎 reactions. These org-level decisions include new repository creation, promotion of repositories to "Stable" status, new org owners, etc.
 
 ---
 

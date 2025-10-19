@@ -7,3 +7,16 @@ stable_repos:
   - jupyter-ai-persona-manager
   - jupyter-ai-router
   - jupyter-ai-jupyternaut
+  - jupyter-ai-chat-commands
+  - jupyter-ai-litellm
+  - jupyter-server-mcp
+  - jupyterlab-cell-diff
+  - jupyter-ai-tools
+
+skip_repos:
+  - .github
+  - jupyter-scheduler-k8s
+  - demo-repository
+  - ipykernel-uv
+  - hyperpod-eks-tf
+  - jupyter-ai-demos
