@@ -6,7 +6,15 @@ The Jupyter AI Contrib organization contains a set of Jupyter extensions that ar
 
 ## Strategy
 
+## Strategy
+
 Our mission is to create modular, extensible building blocks that enable humans and AI to collaborate effectively in Jupyter environments. We focus on developing components that can be composed together to support a wide range of AI-assisted workflows, from code generation and data analysis to interactive learning and research.
+
+To guide our work and ensure a cohesive ecosystem, we follow these guiding principles:
+
+- **Production Ready** — We hold a high bar for performance, reliability, and long-term stability. Our components should be robust enough for real-world research, education, and enterprise workloads.
+- **Exceptional User Experience** — We prioritize thoughtful interaction design, visual polish, and accessibility. Our tools should be intuitive, inclusive, and beautiful, working seamlessly for all users within the Jupyter ecosystem.
+- **Composable, Modular Architecture** — We design reusable components that fit together cleanly, enabling users and developers to assemble AI workflows that meet their specific needs without monolithic tooling.
 
 While Jupyter AI Contrib was created by leaders in the Jupyter community, it is not currently an [official Jupyter subproject](https://jupyter.org/governance/list_of_subprojects.html). However, we intend for this organization to become an official Jupyter AI subproject over time as we mature our governance, community, and technical foundations.
 
