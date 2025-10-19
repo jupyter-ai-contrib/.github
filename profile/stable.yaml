@@ -1,0 +1,9 @@
+# List of stable repositories in the jupyter-ai-contrib organization
+# Add repository names (short form) here to mark them as stable
+# All other repos will be listed as experimental
+
+stable_repos:
+  - jupyter-server-documents
+  - jupyter-ai-persona-manager
+  - jupyter-ai-router
+  - jupyter-ai-jupyternaut

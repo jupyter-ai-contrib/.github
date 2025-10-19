@@ -1,0 +1,25 @@
+# Jupyter AI Contrib
+
+Welcome to Jupyter AI Contrib!
+
+The Jupyter AI Contrib organization contains a set of Jupyter extensions that are designed to enable humans and AI to collaborate together.
+
+## Stable Repositories
+
+These repositories are considered stable and ready for production use:
+
+{% for repo in stable_repos %}
+- [**{{ repo.name }}**]({{ repo.url }}) - {{ repo.description or "No description available" }}
+{% endfor %}
+
+## Experimental Repositories
+
+These repositories are experimental and under active development:
+
+{% for repo in experimental_repos %}
+- [**{{ repo.name }}**]({{ repo.url }}) - {{ repo.description or "No description available" }}
+{% endfor %}
+
+---
+
+*This README is automatically generated. To update, modify `stable.yaml` and run `just build-readme`.*
