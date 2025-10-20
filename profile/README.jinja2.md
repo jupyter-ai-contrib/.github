@@ -6,8 +6,6 @@ The Jupyter AI Contrib organization contains a set of Jupyter extensions that ar
 
 ## Strategy
 
-## Strategy
-
 Our mission is to create modular, extensible building blocks that enable humans and AI to collaborate effectively in Jupyter environments. We focus on developing components that can be composed together to support a wide range of AI-assisted workflows, from code generation and data analysis to interactive learning and research.
 
 To guide our work and ensure a cohesive ecosystem, we follow these guiding principles:
