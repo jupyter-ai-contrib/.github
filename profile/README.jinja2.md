@@ -12,7 +12,7 @@ To guide our work and ensure a cohesive ecosystem, we follow these guiding princ
 
 - **Production Ready** — We hold a high bar for performance, reliability, and long-term stability. Our components should be robust enough for real-world research, education, and enterprise workloads.
 - **Exceptional User Experience** — We prioritize thoughtful interaction design, visual polish, and accessibility. Our tools should be intuitive, inclusive, and beautiful, working seamlessly for all users within the Jupyter ecosystem.
-- **Composable, Modular Architecture** — We design reusable components that fit together cleanly, enabling users and developers to assemble AI workflows that meet their specific needs without monolithic tooling.
+- **Composable, Modular Architecture** — We design reusable components that integrate cleanly, enabling users and developers to assemble AI workflows that meet their specific needs without monolithic tooling.
 
 Jupyter AI Contrib was founded by leaders in the Jupyter community with the goal of becoming an [official Jupyter subproject](https://jupyter.org/governance/list_of_subprojects.html) as we mature our governance, community, and technical foundations.
 
