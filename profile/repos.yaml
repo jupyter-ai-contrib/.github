@@ -10,7 +10,7 @@ stable_repos:
   - jupyter-ai-chat-commands
   - jupyter-ai-litellm
   - jupyter-server-mcp
-  - jupyterlab-cell-diff
+  - jupyterlab-diff
   - jupyter-ai-tools
 
 skip_repos:
