@@ -48,7 +48,7 @@ The organization is owned and governed by the following decision makers (in alph
 - [@Zsailer](https://github.com/Zsailer) - Zach Sailer
 - [@jtpio](https://github.com/jtpio) - Jeremy Tuloup
 
-Jupyter AI Contrib follows a simple, consensus-seeking governance model designed to enable rapid iteration while maintaining quality and community input. We implement this by roughly following the [Jupyter Decision Making Guide](https://jupyter.org/governance/decision_making.html) with the above decision makers guiding the consusus seeking process and voting when needed.
+Jupyter AI Contrib follows a simple, consensus-seeking governance model designed to enable rapid iteration while maintaining quality and community input. We implement this by roughly following the [Jupyter Decision Making Guide](https://jupyter.org/governance/decision_making.html) with the above decision makers guiding the consensus seeking process and voting when needed.
 
 Org-level decisions including new repository creation, promotion of repositories to "Stable" status, and new org owners are made by majority vote of the org owners on [GitHub Discussions](https://github.com/orgs/jupyter-ai-contrib/discussions) using thumbs up 👍 and thumbs down 👎 reactions.
 
