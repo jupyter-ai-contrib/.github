@@ -18,7 +18,7 @@ While Jupyter AI Contrib was created by leaders in the Jupyter community, it is 
 
 ## Community
 
-We welcome contributors of all backgrounds and skill levels! Whether you're fixing bugs, adding features, improving documentation, or sharing ideas, your contributions help make AI-assisted Jupyter workflows better for everyone. All community members are expected to follow the [Jupyter Code of Conduct](https://jupyter.org/governance/conduct/code_of_conduct.html).
+We welcome contributors of all backgrounds and skill levels! Whether you're improving documentation, sharing ideas, fixing bugs, or adding features, your contributions help make AI-assisted Jupyter workflows better for everyone. All community members are expected to follow the [Jupyter Code of Conduct](https://jupyter.org/governance/conduct/code_of_conduct.html).
 
 Please join the community conversation on [GitHub Discussions](https://github.com/orgs/jupyter-ai-contrib/discussions) to ask questions, share ideas, or propose new features.
 
