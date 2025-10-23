@@ -14,7 +14,7 @@ To guide our work and ensure a cohesive ecosystem, we follow these guiding princ
 - **Exceptional User Experience** — We prioritize thoughtful interaction design, visual polish, and accessibility. Our tools should be intuitive, inclusive, and beautiful, working seamlessly for all users within the Jupyter ecosystem.
 - **Composable, Modular Architecture** — We design reusable components that fit together cleanly, enabling users and developers to assemble AI workflows that meet their specific needs without monolithic tooling.
 
-While Jupyter AI Contrib was created by leaders in the Jupyter community, it is not currently an [official Jupyter subproject](https://jupyter.org/governance/list_of_subprojects.html). However, we intend for this organization to become an official Jupyter AI subproject over time as we mature our governance, community, and technical foundations.
+Jupyter AI Contrib was founded by leaders in the Jupyter community with the goal of becoming an [official Jupyter subproject](https://jupyter.org/governance/list_of_subprojects.html) as we mature our governance, community, and technical foundations.
 
 ## Community
 
