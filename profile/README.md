@@ -34,7 +34,7 @@ We have marked the following repositories as being "stable". This status means t
 - [**jupyter-ai-tools**](https://github.com/jupyter-ai-contrib/jupyter-ai-tools) - No description available
 - [**jupyter-server-documents**](https://github.com/jupyter-ai-contrib/jupyter-server-documents) - Server side document handling with improved output handling and kernel management/status.
 - [**jupyter-server-mcp**](https://github.com/jupyter-ai-contrib/jupyter-server-mcp) - An MCP interface/extension for Jupyter Server 
-- [**jupyterlab-cell-diff**](https://github.com/jupyter-ai-contrib/jupyterlab-cell-diff) - JupyterLab Plugin: Show a Cell Diff
+- [**jupyterlab-diff**](https://github.com/jupyter-ai-contrib/jupyterlab-diff) - JupyterLab commands to show cell and file diffs
 
 ## Experimental Repositories
 
